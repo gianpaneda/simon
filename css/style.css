@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro');
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto Mono', 'Helvetica';
+  background: #54C3FF;
+  transition: 0.6s;
+  -moz-transition: 0.6s;
+  -webkit-transition: 0.6s;
+}
+
+body.strict {
+  background: #FF4769;
+  transition: 0.6s;
+  -moz-transition: 0.6s;
+  -webkit-transition: 0.6s;
+}
+
+#simonGame {
+  height: 50%;
+  width: 250px;
+  margin: 15px auto;
+}
+
+#buttons {
+  background: -webkit-linear-gradient(left top, #F2F2F2, #A5DEF1);
+  background: -o-linear-gradient(bottom right, #F2F2F2, #A5DEF1);
+  background: -moz-linear-gradient(bottom right, #F2F2F2, #A5DEF1);
+  background: linear-gradient(to bottom right, #F2F2F2, #A5DEF1);
+  margin: 50px auto;
+  padding: 10px 10px 15px 10px;
+  border-radius: 10px 10px 0px 0px;
+  width: 240px;
+}
+
+#buttons button {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 10px 0px 10px 10px;
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  border-style: none;
+  display: inline;
+  border-radius: 10px;
+}
+
+#red:hover,
+#blue:hover,
+#green:hover,
+#yellow:hover {
+  box-shadow: 5px 5px 5px #5A5A5A;
+}
+
+#red:active,
+#blue:active,
+#green:active,
+#yellow:active {
+  box-shadow: none;
+}
+
+#red {
+  background-color: #ff3427;
+  margin: 5px;
+}
+
+#blue {
+  background-color: #37aeff;
+}
+
+#green {
+  background-color: #53c85b;
+}
+
+#yellow {
+  background-color: #ffe93c;
+}
+
+#display {
+  font-size: 18px;
+  text-align: center;
+  height: 40px;
+  width: 260px;
+  padding: 14px 0px 0px 0px;
+  margin: -50px auto;
+  color: white;
+  background-color: #2A5674;
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+}
+
+#controls {
+  text-align: center;
+  width: 260px;
+  margin: 50px auto;
+  padding: 10px 0px 10px 0px;
+  color: black;
+  background-color: #A5DEF1;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#controls button {
+  font-size: 15px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #F2F2F2;
+  border-style: none;
+  border-radius: 50%;
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+}
+
+#controls button:active {
+  color: white;
+  background-color: #6E6E6E;
+}
+
+#controls button:hover {
+  box-shadow: 3px 3px 3px #5A5A5A;
+}
+
+#strict {
+  background-color: #54C3FF;
+}
+
+
+#score {
+  font-size: 24px;
+  color: #2A5674;
+  text-align: right;
+  padding: 0px;
+  margin: -35px -10px 0px 10px;
+}
+
+#count {
+  color: white;
+  font-size: 32px;
+}
+
+button {
+  outline: none;
+}
